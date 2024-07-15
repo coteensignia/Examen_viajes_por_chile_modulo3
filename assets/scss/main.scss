@@ -1,20 +1,32 @@
-@charset "UTF-8";
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
 
-//abstracts
-@import'abstracts/variables';
 
-//vendors
-@import'vendors/bootstrap';
+// Base
+@import 'base/reset';  // Archivo de reset
+@import 'base/typography';
 
-//base 
-@import 'base/reset';
-@import 'base/_typography';
-//layour
 
-// components
+// Layout
 
-//pages
+@import 'layout/footer';
+@import 'layout/container';
+@import 'layout/nav';
 
-//themes
+// Components
 
-//shame
+@import 'components/carousel'; 
+@import 'components/about';
+@import 'components/cards';
+@import 'components/testimonials';
+@import 'components/contact';
+
+// Pages
+
+
+// Themes
+
+
+// Vendors
+@import 'vendors/bootstrap';
