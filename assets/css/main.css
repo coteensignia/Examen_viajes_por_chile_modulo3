@@ -16,6 +16,22 @@
   z-index: 1000;
 }
 
+.container-descacados img {
+  width: 230px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.container-testimonial {
+  padding: 6rem;
+}
+.container-testimonial img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .page {
   background-color: #212529;
   color: #9E9D9C;
