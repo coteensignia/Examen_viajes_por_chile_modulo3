@@ -8,15 +8,16 @@
 }
 
 .navbar {
-  background-color: transparent;
   position: absolute;
+  background-color: transparent;
   top: 0;
-  width: 100%;
   z-index: 1000;
 }
 
 .carousel-inner {
   height: 350px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
